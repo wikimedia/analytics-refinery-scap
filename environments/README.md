@@ -6,3 +6,9 @@ main targets file and deployed along with the rest of the production nodes.
 To deploy to just to thin host targets, do
 
   scap deploy -e thin
+
+The 'hadoop-test' environment exists so we can deploy refinery to the Hadoop test cluster,
+without impacting the production one.
+
+To deploy to just to thin host targets, do
+  scap deploy -e hadoop-test
